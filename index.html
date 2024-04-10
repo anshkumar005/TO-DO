@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=head, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>To-Do List</h1>
+
+
+    <div class="add task-container">
+    <input type="text" id="taskinput" placeholder="Enter a task"> <br>
+    <button onclick="addtask()">Add Task</button>
+
+    </div>
+
+
+
+    <ul id="tasklist">
+    </ul>
+
+
+    <div id="features">
+         <button onclick="clearAllTasks()">clear All Tasks </button>
+        <button onclick="countTasks()">count tasks</button>
+    </div>
+    <div class="img">
+        <img src="https://images.pexels.com/photos/3705000/pexels-photo-3705000.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load" alt="">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+}
+button{
+    background-color: green;
+    color: aliceblue;
+    margin: 5px;
+    
+
+}
+#taskinput{
+    width: 300px;
+    text-align:left ;
+}          
